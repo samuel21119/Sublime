@@ -1,0 +1,12 @@
+{
+	"always_prompt_for_file_reload": true,
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+	"font_size": 17,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"remember_full_screen": true,
+	"show_line_endings": true,
+	"theme": "Material-Theme-Darker.sublime-theme"
+}

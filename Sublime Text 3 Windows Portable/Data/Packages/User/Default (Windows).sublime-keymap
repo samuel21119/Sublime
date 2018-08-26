@@ -1,0 +1,14 @@
+[
+    { "keys": ["f3"], "command": "build" },
+    {
+        "keys": ["f8"],
+        "command": "chain",
+        "args": {
+            "commands": [
+                ["select_all"],
+                ["copy"]
+            ]
+        }
+    },
+    { "keys": ["f4"], "command": "advanced_new_file_new"},
+]

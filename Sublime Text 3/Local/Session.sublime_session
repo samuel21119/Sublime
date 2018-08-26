@@ -1,0 +1,739 @@
+{
+	"folder_history":
+	[
+		"/Users/samuel",
+		"/Users/samuel/Documents/blog",
+		"/Users/samuel/Documents/Cpp/UVa/Code",
+		"/Users/samuel/Documents",
+		"/Users/samuel/Documents/Cpp/TOJ"
+	],
+	"last_version": 3176,
+	"last_window_id": 58,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 808.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/User/C++.sublime-build",
+							""
+						],
+						[
+							"Packages/User/C++.sublime-build",
+							"Run"
+						]
+					],
+					[
+						"Packages/User/C++.sublime-build",
+						"Run"
+					]
+				],
+				[
+					[
+						[
+							"Packages/User/C++.sublime-build",
+							""
+						],
+						[
+							"Packages/User/C++.sublime-build",
+							"Run"
+						],
+						[
+							"Packages/User/C++.sublime-build",
+							"Compile"
+						]
+					],
+					[
+						"Packages/User/C++.sublime-build",
+						"Compile"
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"cheme",
+						"UI: Select Color Scheme"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"pac",
+						"Package Control: List Packages"
+					],
+					[
+						"Package Control: ",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"pa",
+						"Package Control: Install Package"
+					],
+					[
+						"git co",
+						"Git: Commit"
+					],
+					[
+						"git add",
+						"Git: Add All"
+					],
+					[
+						"git comm",
+						"Git: Commit"
+					],
+					[
+						"git sta",
+						"Git: Status"
+					],
+					[
+						"term",
+						"Preferences: Terminus Command Palette"
+					],
+					[
+						"git status",
+						"Git: Status"
+					],
+					[
+						"git push",
+						"Git: Push"
+					],
+					[
+						"git check",
+						"Git: Checkout Current File"
+					],
+					[
+						"git",
+						"Git: Status"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"pack",
+						"Package Control: Install Package"
+					],
+					[
+						"insla",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 255.0,
+				"history":
+				[
+					"g++ '/Users/samuel/Documents/Cpp/UVa/Code/12538 - Version Controlled IDE.cpp' -Wall -lm -O2 -std=c++11 -pipe -o a",
+					"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/Users/samuel/Documents/Cpp/UVa/Code/12538 - Version Controlled IDE.cpp",
+				"/Users/samuel/Documents/blog/node_modules/stylus/lib/lexer.js",
+				"/Users/samuel/Documents/Cpp/UVa/Code/00133 - The Dole Queue.cpp",
+				"/Users/samuel/Documents/Cpp/TOJ/263.cpp",
+				"/Users/samuel/Documents/Cpp/Zero Judge/b904.cpp",
+				"/Users/samuel/Documents/Cpp/Matrix.cpp",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/User/SublimeTmpl.sublime-settings",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/User/SublimeTmpl/Main.sublime-menu",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/SublimeTmpl/Main.sublime-menu",
+				"/Users/samuel/Documents/test.cpp",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/User/C++ Terminal.sublime-build",
+				"/Users/samuel/Documents/Cpp/UVa/Code/00101 - The Blocks Problem.cpp",
+				"/Users/samuel/Documents/Cpp/UVa/Code/a.cpp",
+				"/Users/samuel/Documents/Cpp/UVa/Code/12097 - Pie.cpp",
+				"/Users/samuel/Desktop/a.cpp",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/User/dired.sublime-settings",
+				"/Users/samuel/Documents/Cpp/UVa/Code/12321 - Gas Stations.cpp",
+				"/Users/samuel/Documents/Cpp/UVa/Code/10226 - Hardwood Species.cpp",
+				"/Users/samuel/Documents/Cpp/UVa/Code/11516 - WiFi.cpp",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/User/dired.hidden-tmTheme",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+				"/Users/samuel/Documents/Sublime/a.cpp",
+				"/Users/samuel/Documents/blog/source/_posts/2018-08-23-Template-Fibonacci-Matrix.md",
+				"/Users/samuel/Documents/blog/source/_posts/2018-08-09-Template-Longest-Common-Subsequence.md",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/User/C++.sublime-build"
+			],
+			"find":
+			{
+				"height": 70.0
+			},
+			"find_in_files":
+			{
+				"height": 158.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"Save",
+					"F4"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 32.0
+			},
+			"input":
+			{
+				"height": 46.0
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 198.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.git":
+			{
+				"height": 142.0
+			},
+			"pinned_build_system": "Packages/User/C++.sublime-build",
+			"replace":
+			{
+				"height": 60.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 223.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1440.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/Users/samuel/Documents/Cpp/UVa/Code/12538 - Version Controlled IDE.cpp",
+					"settings":
+					{
+						"buffer_size": 2734,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/samuel/Documents/Cpp/UVa/Code/1",
+					"settings":
+					{
+						"buffer_size": 52,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/User/C++.sublime-build",
+							""
+						],
+						[
+							"Packages/User/C++.sublime-build",
+							"Run"
+						]
+					],
+					[
+						"Packages/User/C++.sublime-build",
+						"Run"
+					]
+				],
+				[
+					[
+						[
+							"Packages/User/C++.sublime-build",
+							""
+						],
+						[
+							"Packages/User/C++.sublime-build",
+							"Run"
+						],
+						[
+							"Packages/User/C++.sublime-build",
+							"Compile"
+						]
+					],
+					[
+						"Packages/User/C++.sublime-build",
+						"Compile"
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"cheme",
+						"UI: Select Color Scheme"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"pac",
+						"Package Control: List Packages"
+					],
+					[
+						"Package Control: ",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"pa",
+						"Package Control: Install Package"
+					],
+					[
+						"git co",
+						"Git: Commit"
+					],
+					[
+						"git add",
+						"Git: Add All"
+					],
+					[
+						"git comm",
+						"Git: Commit"
+					],
+					[
+						"git sta",
+						"Git: Status"
+					],
+					[
+						"term",
+						"Preferences: Terminus Command Palette"
+					],
+					[
+						"git status",
+						"Git: Status"
+					],
+					[
+						"git push",
+						"Git: Push"
+					],
+					[
+						"git check",
+						"Git: Checkout Current File"
+					],
+					[
+						"git",
+						"Git: Status"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"pack",
+						"Package Control: Install Package"
+					],
+					[
+						"insla",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 255.0,
+				"history":
+				[
+					"g++ '/Users/samuel/Documents/Cpp/UVa/Code/12538 - Version Controlled IDE.cpp' -Wall -lm -O2 -std=c++11 -pipe -o a",
+					"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/Users/samuel/Documents/Cpp/UVa/Code"
+			],
+			"file_history":
+			[
+				"/Users/samuel/Documents/Cpp/UVa/Code/1",
+				"/Users/samuel/Documents/Cpp/UVa/Code/12538 - Version Controlled IDE.cpp",
+				"/Users/samuel/Documents/Cpp/UVa/Code/ㄅ",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/AdvancedNewFile/README.md",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/AdvancedNewFile/AdvancedNewFile.sublime-settings",
+				"/Users/samuel/Documents/blog/node_modules/stylus/lib/lexer.js",
+				"/Users/samuel/Documents/Cpp/UVa/Code/00133 - The Dole Queue.cpp",
+				"/Users/samuel/Documents/Cpp/TOJ/263.cpp",
+				"/Users/samuel/Documents/Cpp/Zero Judge/b904.cpp",
+				"/Users/samuel/Documents/Cpp/Matrix.cpp",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/User/SublimeTmpl.sublime-settings",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/User/SublimeTmpl/Main.sublime-menu",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/SublimeTmpl/Main.sublime-menu",
+				"/Users/samuel/Documents/test.cpp",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/User/C++ Terminal.sublime-build",
+				"/Users/samuel/Documents/Cpp/UVa/Code/00101 - The Blocks Problem.cpp",
+				"/Users/samuel/Documents/Cpp/UVa/Code/a.cpp",
+				"/Users/samuel/Documents/Cpp/UVa/Code/12097 - Pie.cpp",
+				"/Users/samuel/Desktop/a.cpp",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/User/dired.sublime-settings",
+				"/Users/samuel/Documents/Cpp/UVa/Code/12321 - Gas Stations.cpp",
+				"/Users/samuel/Documents/Cpp/UVa/Code/10226 - Hardwood Species.cpp",
+				"/Users/samuel/Documents/Cpp/UVa/Code/11516 - WiFi.cpp",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/User/dired.hidden-tmTheme",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+				"/Users/samuel/Documents/Sublime/a.cpp",
+				"/Users/samuel/Documents/blog/source/_posts/2018-08-23-Template-Fibonacci-Matrix.md",
+				"/Users/samuel/Documents/blog/source/_posts/2018-08-09-Template-Longest-Common-Subsequence.md",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/User/C++.sublime-build"
+			],
+			"find":
+			{
+				"height": 70.0
+			},
+			"find_in_files":
+			{
+				"height": 158.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/Users/samuel/Documents/Cpp/UVa/Code"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 1,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/Users/samuel/Documents/Cpp/UVa/Code/12538 - Version Controlled IDE.cpp",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2734,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"is_init_dirty_state": false,
+									"origin_encoding": "ASCII",
+									"syntax": "Packages/C++/C++.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true,
+									"vintage":
+									{
+										"action": null,
+										"action_count": "",
+										"mode": "mode_normal",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 0
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/Users/samuel/Documents/Cpp/UVa/Code/1",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 52,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										52,
+										52
+									]
+								],
+								"settings":
+								{
+									"is_init_dirty_state": false,
+									"origin_encoding": "ASCII",
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"vintage":
+									{
+										"_vintageous_glue_until_normal_mode": false,
+										"_vintageous_non_interactive": false,
+										"_vintageous_processing_notation": false,
+										"action": null,
+										"action_count": "",
+										"mode": "mode_normal",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 0
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				},
+				{
+					"sheets":
+					[
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 32.0
+			},
+			"input":
+			{
+				"height": 70.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					],
+					[
+						1,
+						0,
+						2,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					0.696018642153,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 198.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.git":
+			{
+				"height": 142.0
+			},
+			"pinned_build_system": "Packages/User/C++.sublime-build",
+			"position": "1 0 0 1440 878 0 0 1440 878 ",
+			"project": "",
+			"replace":
+			{
+				"height": 60.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 1,
+			"settings":
+			{
+				"_vintageous_reset_during_init": true,
+				"vintage":
+				{
+					"_cmdline_cd": "/Users/samuel/Documents/Cpp/UVa/Code"
+				}
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 223.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 54,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

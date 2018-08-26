@@ -1,0 +1,20 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"AdvancedNewFile",
+		"All Autocomplete",
+		"Alternate VIM Navigation",
+		"C++ Starting Kit",
+		"Chain of Command",
+		"ConvertToUTF8",
+		"Gherkin Auto-Complete Plus",
+		"Material Theme",
+		"Package Control",
+		"Vintageous"
+	]
+}
