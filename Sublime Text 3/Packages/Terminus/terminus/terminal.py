@@ -1,10 +1,12 @@
 import sublime
 
 import os
+import time
 import base64
 import logging
 import tempfile
 import threading
+from queue import Queue, Empty
 
 from .ptty import TerminalPtyProcess, TerminalScreen, TerminalStream
 from .utils import view_size, responsive, intermission
@@ -28,6 +30,7 @@ logger = logging.getLogger('Terminus')
 
 class Terminal:
     _terminals = {}
+    _title = ""
 
     def __init__(self, view):
         self.view = view
@@ -36,6 +39,8 @@ class Terminal:
         self._cached_cursor_is_hidden = [True]
         self.image_count = 0
         self.images = {}
+        self._strings = Queue()
+        self._pending_to_send_string = [False]
 
     @classmethod
     def from_id(cls, vid):
@@ -119,6 +124,7 @@ class Terminal:
 
                         if was_resized():
                             self.handle_resize()
+                            self.view.run_command("terminus_show_cursor")
 
                         if self._need_to_render():
                             self.view.run_command("terminus_render")
@@ -140,7 +146,8 @@ class Terminal:
         self.panel_name = panel_name
         self.tag = tag
         self.auto_close = auto_close
-        self.set_title(title)
+        self.default_title = title
+        self.title = title
         self.offset = offset
         self.viewport = (0, self.view.text_to_layout(self.view.text_point(offset, 0))[1])
         _env = os.environ.copy()
@@ -196,8 +203,14 @@ class Terminal:
         self.screen.resize(*size)
         # self.view.settings().set("wrap_width", size[1])
 
-    def set_title(self, title):
-        self.view.set_name(title)
+    @property
+    def title(self):
+        return self._title
+
+    @title.setter
+    def title(self, value):
+        self._title = value
+        self.view.set_name(value)
 
     def send_key(self, *args, **kwargs):
         kwargs["application_mode"] = self.application_mode_enabled()
@@ -213,8 +226,25 @@ class Terminal:
             else:
                 string = string.replace("\n", "\r")
 
-        logger.debug("sent {}".format(string))
-        self.process.write(string)
+        no_queue = not self._pending_to_send_string[0]
+        if no_queue and len(string) <= 512:
+            self.process.write(string)
+        else:
+            for i in range(0, len(string), 512):
+                self._strings.put(string[i:i+512])
+            if no_queue:
+                self._pending_to_send_string[0] = True
+                threading.Thread(target=self.process_send_string).start()
+
+    def process_send_string(self):
+        while True:
+            try:
+                self.process.write(self._strings.get(False))
+            except Empty:
+                self._pending_to_send_string[0] = False
+                return
+            else:
+                time.sleep(0.1)
 
     def bracketed_paste_mode_enabled(self):
         return (2004 << 5) in self.screen.mode

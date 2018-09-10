@@ -1,14 +1,22 @@
 {
 	"folder_history":
 	[
-		"/Users/samuel",
-		"/Users/samuel/Documents/blog",
-		"/Users/samuel/Documents/Cpp/UVa/Code",
 		"/Users/samuel/Documents",
+		"/Users/samuel/Documents/Cpp/UVa/Code",
+		"/Users/samuel/Documents/blog",
+		"/Users/samuel/Documents/Cpp/CodeForces/939",
+		"/Users/samuel/Documents/Cpp/CodeForces/1036",
+		"/Users/samuel/Documents/Cpp/CodeForces/1038",
+		"/Users/samuel/Desktop",
+		"/Users/samuel/Documents/Cpp/UVa",
+		"/Users/samuel/Documents/Cpp/Zero Judge",
+		"/Users/samuel/Documents/Cpp/Virtual/TOI2018",
+		"/Users/samuel/Documents/Cpp/Virtual",
+		"/Users/samuel",
 		"/Users/samuel/Documents/Cpp/TOJ"
 	],
 	"last_version": 3176,
-	"last_window_id": 58,
+	"last_window_id": 89,
 	"log_indexing": false,
 	"settings":
 	{
@@ -23,6 +31,38 @@
 			},
 			"build_system_choices":
 			[
+				[
+					[
+						[
+							"Packages/User/C++ console.sublime-build",
+							""
+						],
+						[
+							"Packages/User/C++ console.sublime-build",
+							"Run"
+						]
+					],
+					[
+						"Packages/User/C++ console.sublime-build",
+						"Run"
+					]
+				],
+				[
+					[
+						[
+							"Packages/User/C++ console.sublime-build",
+							""
+						],
+						[
+							"Packages/User/C++ console.sublime-build",
+							"Run in Terminal"
+						]
+					],
+					[
+						"Packages/User/C++ console.sublime-build",
+						"Run in Terminal"
+					]
+				],
 				[
 					[
 						[
@@ -68,24 +108,48 @@
 				"selected_items":
 				[
 					[
-						"cheme",
-						"UI: Select Color Scheme"
+						"in",
+						"Package Control: Install Package"
+					],
+					[
+						"re",
+						"Package Control: Remove Package"
+					],
+					[
+						"YouCom",
+						"YouCompleteMe: Get debug info"
+					],
+					[
+						"YCM",
+						"YouCompleteMe: Show file information"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
 					],
 					[
 						"ins",
 						"Package Control: Install Package"
 					],
 					[
+						"rem",
+						"Package Control: Remove Package"
+					],
+					[
+						"pa",
+						"Package Control: Remove Package"
+					],
+					[
 						"pac",
 						"Package Control: List Packages"
 					],
 					[
-						"Package Control: ",
-						"Package Control: Upgrade/Overwrite All Packages"
+						"cheme",
+						"UI: Select Color Scheme"
 					],
 					[
-						"pa",
-						"Package Control: Install Package"
+						"Package Control: ",
+						"Package Control: Upgrade/Overwrite All Packages"
 					],
 					[
 						"git co",
@@ -143,6 +207,8 @@
 				"height": 255.0,
 				"history":
 				[
+					"ls",
+					"sl",
 					"g++ '/Users/samuel/Documents/Cpp/UVa/Code/12538 - Version Controlled IDE.cpp' -Wall -lm -O2 -std=c++11 -pipe -o a",
 					"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 				]
@@ -158,7 +224,53 @@
 			},
 			"file_history":
 			[
+				"/Users/samuel/Documents/Cpp/UVa/Code/00166 - Making Change.cpp",
+				"/Users/samuel/Documents/Cpp/UVa/Code/00100 - The 3n + 1 problem.cpp",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/YouCompleteMe/README.md",
+				"/Users/samuel/Documents/Cpp/UVa/Code/00101 - The Blocks Problem.cpp",
+				"/Users/samuel/Documents/Cpp/UVa/Code/00374 - Big Mod.cpp",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/User/C++ console.sublime-build",
+				"/Users/samuel/Documents/Cpp/CodeForces/939/b.cpp",
+				"/Users/samuel/Documents/Cpp/CodeForces/939/a.cpp",
+				"/Users/samuel/Documents/Cpp/CodeForces/939/c.cpp",
+				"/Users/samuel/Documents/Cpp/CodeForces/939/d.cpp",
+				"/Users/samuel/Documents/blog/source/_posts/2018-09-09-UVa-10917-Walk-Through-the-Forest.md",
+				"/Users/samuel/Documents/Cpp/UVa/Code/1",
+				"/Users/samuel/Documents/Cpp/CodeForces/1036/b.cpp",
+				"/Users/samuel/Documents/Cpp/CodeForces/1036/d.cpp",
+				"/Users/samuel/Documents/Cpp/CodeForces/1036/a.cpp",
+				"/Users/samuel/Documents/Cpp/CodeForces/1036/e.cpp",
+				"/Users/samuel/Documents/Cpp/CodeForces/1036/c.cpp",
+				"/Users/samuel/Documents/Cpp/CodeForces/1038/a.cpp",
+				"/Users/samuel/Documents/Cpp/CodeForces/1038/b.cpp",
+				"/Users/samuel/Documents/Cpp/CodeForces/1038/c.cpp",
+				"/Users/samuel/Documents/Cpp/UVa/Code/00494 - Kindergarten Counting Game.cpp",
+				"/Users/samuel/Documents/Cpp/UVa/Code/10013 - Super long sums.cpp",
+				"/Users/samuel/Documents/Cpp/UVa/Code/01513 - Movie collection.cpp",
+				"/Users/samuel/Documents/Cpp/UVa/Code/10917 - A Walk Through the Forest.cpp",
+				"/Users/samuel/Documents/Cpp/UVa/Code/01225 - Digit Counting.cpp",
+				"/Users/samuel/Desktop/a.cpp",
+				"/Users/samuel/Desktop/d.cpp",
+				"/Users/samuel/Desktop/dd.cpp",
+				"/Users/samuel/Desktop/b.cpp",
+				"/Users/samuel/Desktop/c.cpp",
+				"/Users/samuel/Documents/Cpp/Zero Judge/b905.cpp",
+				"/Users/samuel/Documents/Cpp/Zero Judge/a.cpp",
+				"/Users/samuel/Documents/Cpp/UVa/Code/12247 - Jollo.cpp",
+				"/Users/samuel/Documents/Cpp/UVa/Code/00536 - Tree Recovery.cpp",
+				"/Users/samuel/a.cpp",
+				"/Users/samuel/Documents/Cpp/Virtual/TOI2018/d.cpp",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/Highlight Build Errors/HighlightBuildErrors.sublime-settings",
+				"/Users/samuel/Documents/Cpp/Virtual/TOI2018/c.cpp",
+				"/Users/samuel/Documents/Cpp/Virtual/TOI2018/b.cpp",
+				"/Users/samuel/Documents/Cpp/Virtual/TOI2018/e.cpp",
+				"/Users/samuel/Documents/Cpp/Virtual/TOI2018/dd.cpp",
+				"/Users/samuel/Documents/Cpp/Virtual/TOI2018/a.cpp",
+				"/Users/samuel/Documents/Cpp/Virtual/1",
 				"/Users/samuel/Documents/Cpp/UVa/Code/12538 - Version Controlled IDE.cpp",
+				"/Users/samuel/Documents/Cpp/UVa/Code/ㄅ",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/AdvancedNewFile/README.md",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/AdvancedNewFile/AdvancedNewFile.sublime-settings",
 				"/Users/samuel/Documents/blog/node_modules/stylus/lib/lexer.js",
 				"/Users/samuel/Documents/Cpp/UVa/Code/00133 - The Dole Queue.cpp",
 				"/Users/samuel/Documents/Cpp/TOJ/263.cpp",
@@ -169,10 +281,8 @@
 				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/SublimeTmpl/Main.sublime-menu",
 				"/Users/samuel/Documents/test.cpp",
 				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/User/C++ Terminal.sublime-build",
-				"/Users/samuel/Documents/Cpp/UVa/Code/00101 - The Blocks Problem.cpp",
 				"/Users/samuel/Documents/Cpp/UVa/Code/a.cpp",
 				"/Users/samuel/Documents/Cpp/UVa/Code/12097 - Pie.cpp",
-				"/Users/samuel/Desktop/a.cpp",
 				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/User/dired.sublime-settings",
 				"/Users/samuel/Documents/Cpp/UVa/Code/12321 - Gas Stations.cpp",
 				"/Users/samuel/Documents/Cpp/UVa/Code/10226 - Hardwood Species.cpp",
@@ -186,11 +296,11 @@
 			],
 			"find":
 			{
-				"height": 70.0
+				"height": 29.0
 			},
 			"find_in_files":
 			{
-				"height": 158.0,
+				"height": 161.0,
 				"where_history":
 				[
 				]
@@ -200,8 +310,6 @@
 				"case_sensitive": false,
 				"find_history":
 				[
-					"Save",
-					"F4"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -218,11 +326,11 @@
 			},
 			"incremental_find":
 			{
-				"height": 32.0
+				"height": 29.0
 			},
 			"input":
 			{
-				"height": 46.0
+				"height": 71.0
 			},
 			"menu_visible": true,
 			"output.exec":
@@ -240,7 +348,7 @@
 			"pinned_build_system": "Packages/User/C++.sublime-build",
 			"replace":
 			{
-				"height": 60.0
+				"height": 54.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -249,6 +357,38 @@
 				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"com",
+						"10898 - Combo Deal.cpp"
+					],
+					[
+						"kind",
+						"00494 - Kindergarten Counting Game.cpp"
+					],
+					[
+						"sums",
+						"10013 - Super long sums.cpp"
+					],
+					[
+						"1513",
+						"01513 - Movie collection.cpp"
+					],
+					[
+						"digit",
+						"01225 - Digit Counting.cpp"
+					],
+					[
+						"b9",
+						"b905.cpp"
+					],
+					[
+						"536",
+						"00536 - Tree Recovery.cpp"
+					],
+					[
+						"1246",
+						"12468 - Zapping.cpp"
+					]
 				],
 				"width": 0.0
 			},
@@ -270,7 +410,7 @@
 				],
 				"width": 0.0
 			},
-			"show_minimap": true,
+			"show_minimap": false,
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
@@ -293,26 +433,42 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/Users/samuel/Documents/Cpp/UVa/Code/12538 - Version Controlled IDE.cpp",
-					"settings":
-					{
-						"buffer_size": 2734,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/Users/samuel/Documents/Cpp/UVa/Code/1",
-					"settings":
-					{
-						"buffer_size": 52,
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
 			[
+				[
+					[
+						[
+							"Packages/User/C++ console.sublime-build",
+							""
+						],
+						[
+							"Packages/User/C++ console.sublime-build",
+							"Run"
+						]
+					],
+					[
+						"Packages/User/C++ console.sublime-build",
+						"Run"
+					]
+				],
+				[
+					[
+						[
+							"Packages/User/C++ console.sublime-build",
+							""
+						],
+						[
+							"Packages/User/C++ console.sublime-build",
+							"Run in Terminal"
+						]
+					],
+					[
+						"Packages/User/C++ console.sublime-build",
+						"Run in Terminal"
+					]
+				],
 				[
 					[
 						[
@@ -358,24 +514,48 @@
 				"selected_items":
 				[
 					[
-						"cheme",
-						"UI: Select Color Scheme"
+						"in",
+						"Package Control: Install Package"
+					],
+					[
+						"re",
+						"Package Control: Remove Package"
+					],
+					[
+						"YouCom",
+						"YouCompleteMe: Get debug info"
+					],
+					[
+						"YCM",
+						"YouCompleteMe: Show file information"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
 					],
 					[
 						"ins",
 						"Package Control: Install Package"
 					],
 					[
+						"rem",
+						"Package Control: Remove Package"
+					],
+					[
+						"pa",
+						"Package Control: Remove Package"
+					],
+					[
 						"pac",
 						"Package Control: List Packages"
 					],
 					[
-						"Package Control: ",
-						"Package Control: Upgrade/Overwrite All Packages"
+						"cheme",
+						"UI: Select Color Scheme"
 					],
 					[
-						"pa",
-						"Package Control: Install Package"
+						"Package Control: ",
+						"Package Control: Upgrade/Overwrite All Packages"
 					],
 					[
 						"git co",
@@ -433,6 +613,8 @@
 				"height": 255.0,
 				"history":
 				[
+					"ls",
+					"sl",
 					"g++ '/Users/samuel/Documents/Cpp/UVa/Code/12538 - Version Controlled IDE.cpp' -Wall -lm -O2 -std=c++11 -pipe -o a",
 					"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 				]
@@ -446,13 +628,51 @@
 				"side_bar_visible": false,
 				"status_bar_visible": false
 			},
-			"expanded_folders":
-			[
-				"/Users/samuel/Documents/Cpp/UVa/Code"
-			],
 			"file_history":
 			[
+				"/Users/samuel/Documents/Cpp/UVa/Code/00166 - Making Change.cpp",
+				"/Users/samuel/Documents/Cpp/UVa/Code/00100 - The 3n + 1 problem.cpp",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/YouCompleteMe/README.md",
+				"/Users/samuel/Documents/Cpp/UVa/Code/00101 - The Blocks Problem.cpp",
+				"/Users/samuel/Documents/Cpp/UVa/Code/00374 - Big Mod.cpp",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/User/C++ console.sublime-build",
+				"/Users/samuel/Documents/Cpp/CodeForces/939/b.cpp",
+				"/Users/samuel/Documents/Cpp/CodeForces/939/a.cpp",
+				"/Users/samuel/Documents/Cpp/CodeForces/939/c.cpp",
+				"/Users/samuel/Documents/Cpp/CodeForces/939/d.cpp",
+				"/Users/samuel/Documents/blog/source/_posts/2018-09-09-UVa-10917-Walk-Through-the-Forest.md",
 				"/Users/samuel/Documents/Cpp/UVa/Code/1",
+				"/Users/samuel/Documents/Cpp/CodeForces/1036/b.cpp",
+				"/Users/samuel/Documents/Cpp/CodeForces/1036/d.cpp",
+				"/Users/samuel/Documents/Cpp/CodeForces/1036/a.cpp",
+				"/Users/samuel/Documents/Cpp/CodeForces/1036/e.cpp",
+				"/Users/samuel/Documents/Cpp/CodeForces/1036/c.cpp",
+				"/Users/samuel/Documents/Cpp/CodeForces/1038/a.cpp",
+				"/Users/samuel/Documents/Cpp/CodeForces/1038/b.cpp",
+				"/Users/samuel/Documents/Cpp/CodeForces/1038/c.cpp",
+				"/Users/samuel/Documents/Cpp/UVa/Code/00494 - Kindergarten Counting Game.cpp",
+				"/Users/samuel/Documents/Cpp/UVa/Code/10013 - Super long sums.cpp",
+				"/Users/samuel/Documents/Cpp/UVa/Code/01513 - Movie collection.cpp",
+				"/Users/samuel/Documents/Cpp/UVa/Code/10917 - A Walk Through the Forest.cpp",
+				"/Users/samuel/Documents/Cpp/UVa/Code/01225 - Digit Counting.cpp",
+				"/Users/samuel/Desktop/a.cpp",
+				"/Users/samuel/Desktop/d.cpp",
+				"/Users/samuel/Desktop/dd.cpp",
+				"/Users/samuel/Desktop/b.cpp",
+				"/Users/samuel/Desktop/c.cpp",
+				"/Users/samuel/Documents/Cpp/Zero Judge/b905.cpp",
+				"/Users/samuel/Documents/Cpp/Zero Judge/a.cpp",
+				"/Users/samuel/Documents/Cpp/UVa/Code/12247 - Jollo.cpp",
+				"/Users/samuel/Documents/Cpp/UVa/Code/00536 - Tree Recovery.cpp",
+				"/Users/samuel/a.cpp",
+				"/Users/samuel/Documents/Cpp/Virtual/TOI2018/d.cpp",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/Highlight Build Errors/HighlightBuildErrors.sublime-settings",
+				"/Users/samuel/Documents/Cpp/Virtual/TOI2018/c.cpp",
+				"/Users/samuel/Documents/Cpp/Virtual/TOI2018/b.cpp",
+				"/Users/samuel/Documents/Cpp/Virtual/TOI2018/e.cpp",
+				"/Users/samuel/Documents/Cpp/Virtual/TOI2018/dd.cpp",
+				"/Users/samuel/Documents/Cpp/Virtual/TOI2018/a.cpp",
+				"/Users/samuel/Documents/Cpp/Virtual/1",
 				"/Users/samuel/Documents/Cpp/UVa/Code/12538 - Version Controlled IDE.cpp",
 				"/Users/samuel/Documents/Cpp/UVa/Code/ㄅ",
 				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/AdvancedNewFile/README.md",
@@ -467,10 +687,8 @@
 				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/SublimeTmpl/Main.sublime-menu",
 				"/Users/samuel/Documents/test.cpp",
 				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/User/C++ Terminal.sublime-build",
-				"/Users/samuel/Documents/Cpp/UVa/Code/00101 - The Blocks Problem.cpp",
 				"/Users/samuel/Documents/Cpp/UVa/Code/a.cpp",
 				"/Users/samuel/Documents/Cpp/UVa/Code/12097 - Pie.cpp",
-				"/Users/samuel/Desktop/a.cpp",
 				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/User/dired.sublime-settings",
 				"/Users/samuel/Documents/Cpp/UVa/Code/12321 - Gas Stations.cpp",
 				"/Users/samuel/Documents/Cpp/UVa/Code/10226 - Hardwood Species.cpp",
@@ -484,11 +702,11 @@
 			],
 			"find":
 			{
-				"height": 70.0
+				"height": 29.0
 			},
 			"find_in_files":
 			{
-				"height": 158.0,
+				"height": 161.0,
 				"where_history":
 				[
 				]
@@ -512,111 +730,8 @@
 				"whole_word": false,
 				"wrap": true
 			},
-			"folders":
-			[
-				{
-					"path": "/Users/samuel/Documents/Cpp/UVa/Code"
-				}
-			],
 			"groups":
 			[
-				{
-					"selected": 1,
-					"sheets":
-					[
-						{
-							"buffer": 0,
-							"file": "/Users/samuel/Documents/Cpp/UVa/Code/12538 - Version Controlled IDE.cpp",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 2734,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"is_init_dirty_state": false,
-									"origin_encoding": "ASCII",
-									"syntax": "Packages/C++/C++.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true,
-									"vintage":
-									{
-										"action": null,
-										"action_count": "",
-										"mode": "mode_normal",
-										"motion": null,
-										"motion_count": "",
-										"must_capture_register_name": false,
-										"partial_sequence": "",
-										"register": "\"",
-										"sequence": "",
-										"xpos": 0
-									}
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/Users/samuel/Documents/Cpp/UVa/Code/1",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 52,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										52,
-										52
-									]
-								],
-								"settings":
-								{
-									"is_init_dirty_state": false,
-									"origin_encoding": "ASCII",
-									"syntax": "Packages/Text/Plain text.tmLanguage",
-									"vintage":
-									{
-										"_vintageous_glue_until_normal_mode": false,
-										"_vintageous_non_interactive": false,
-										"_vintageous_processing_notation": false,
-										"action": null,
-										"action_count": "",
-										"mode": "mode_normal",
-										"motion": null,
-										"motion_count": "",
-										"must_capture_register_name": false,
-										"partial_sequence": "",
-										"register": "\"",
-										"sequence": "",
-										"xpos": 0
-									}
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						}
-					]
-				},
 				{
 					"sheets":
 					[
@@ -625,11 +740,11 @@
 			],
 			"incremental_find":
 			{
-				"height": 32.0
+				"height": 29.0
 			},
 			"input":
 			{
-				"height": 70.0
+				"height": 71.0
 			},
 			"layout":
 			{
@@ -640,18 +755,11 @@
 						0,
 						1,
 						1
-					],
-					[
-						1,
-						0,
-						2,
-						1
 					]
 				],
 				"cols":
 				[
 					0.0,
-					0.696018642153,
 					1.0
 				],
 				"rows":
@@ -674,11 +782,11 @@
 				"height": 142.0
 			},
 			"pinned_build_system": "Packages/User/C++.sublime-build",
-			"position": "1 0 0 1440 878 0 0 1440 878 ",
+			"position": "0 240 125 1440 830 0 0 1920 1058 ",
 			"project": "",
 			"replace":
 			{
-				"height": 60.0
+				"height": 54.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -687,6 +795,38 @@
 				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"com",
+						"10898 - Combo Deal.cpp"
+					],
+					[
+						"kind",
+						"00494 - Kindergarten Counting Game.cpp"
+					],
+					[
+						"sums",
+						"10013 - Super long sums.cpp"
+					],
+					[
+						"1513",
+						"01513 - Movie collection.cpp"
+					],
+					[
+						"digit",
+						"01225 - Digit Counting.cpp"
+					],
+					[
+						"b9",
+						"b905.cpp"
+					],
+					[
+						"536",
+						"00536 - Tree Recovery.cpp"
+					],
+					[
+						"1246",
+						"12468 - Zapping.cpp"
+					]
 				],
 				"width": 0.0
 			},
@@ -708,16 +848,11 @@
 				],
 				"width": 0.0
 			},
-			"selected_group": 1,
+			"selected_group": 0,
 			"settings":
 			{
-				"_vintageous_reset_during_init": true,
-				"vintage":
-				{
-					"_cmdline_cd": "/Users/samuel/Documents/Cpp/UVa/Code"
-				}
 			},
-			"show_minimap": true,
+			"show_minimap": false,
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
@@ -726,7 +861,7 @@
 			"template_settings":
 			{
 			},
-			"window_id": 54,
+			"window_id": 89,
 			"workspace_name": ""
 		}
 	],
