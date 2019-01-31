@@ -1,13 +1,49 @@
 {
 	"always_prompt_for_file_reload": false,
-	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+	"always_show_minimap_viewport": true,
+	"auto_complete": true,
+	"auto_complete_selector": "source - comment",
+	"auto_complete_triggers":
+	[
+		{
+			"characters": "."
+		},
+		{
+			"characters": ">"
+		}
+	],
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/Materialize/schemes/Material Stereokai.tmTheme",
+	"extensions":
+	[
+		"c",
+		"h"
+	],
+	"font_options":
+	[
+		"gray_antialias"
+	],
 	"font_size": 15,
 	"ignored_packages":
 	[
+		"C++",
 		"Vintage"
 	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"material_theme_accent_cyan": true,
+	"material_theme_contrast_mode": true,
+	"material_theme_small_tab": true,
+	"overlay_scroll_bars": "enabled",
 	"remember_full_screen": true,
 	"show_line_endings": true,
-	"theme": "Material-Theme-Darker.sublime-theme",
+	"theme": "Material Stereokai.sublime-theme",
+	"theme_icons_materialized": true,
+	"theme_tab_selected_underlined": true,
 	"translate_tabs_to_spaces": true
 }

@@ -25,7 +25,7 @@ The first cross platform terminal for Sublime Text.
     </tr>
     <tr>
         <th>Terminal in panel</th>
-        <th></th>
+        <th>Support <a href="https://www.iterm2.com/documentation-images.html">showing images</a></th>
     </tr>
     <tr>
         <td width="50%">
@@ -34,6 +34,7 @@ The first cross platform terminal for Sublime Text.
             </a>
         </td>
         <td width="50%">
+            <img src="https://user-images.githubusercontent.com/1690993/51725223-1dfa3780-202f-11e9-9600-6e24b78d562d.png" width="100%">
         </td>
     </tr>
 </table>
@@ -42,7 +43,7 @@ This package is heavily inspired by [TerminalView](https://github.com/Wramberg/T
 
 - Windows support
 - continuous history
-- easily customizable themes
+- easily customizable themes (see Terminus Utilities)
 - unicode support
 - 256 colors support
 - better xterm support
@@ -226,6 +227,27 @@ Use `Terminus` as a build system. For example, the following can be added to you
 }
 ```
 
+Another build system for compiling C++ (with g++) is possible with the following code (as project settings).
+
+```json
+{
+    "build_systems":
+    [
+        {
+            "name": "Build & Run (g++)",
+            "cmd":
+            [
+                "bash",
+                "-c",
+                "g++ -pedantic -Wall -Wextra -Wconversion -pthread \"${file}\" -o \"${file_path}/${file_base_name}\" && \"${file_path}/${file_base_name}\" && echo && echo Press ENTER to continue && read line && exit"
+            ],
+            "target": "terminus_open",
+            "working_dir": "$folder"
+        }
+    ]
+}
+```
+
 ## Alt-Left/Right to move between words (Unix)
 
 - Bash: add the following in `.bash_profile` or `.bashrc`
@@ -307,6 +329,10 @@ If `tag` is not provided or is `None`, the text will be sent to the first termin
 
 
 ## FAQ
+
+### Memory issue
+
+It is known that Terminus sometimes consumes a lot of memory after extensive use. It is because Sublime Text keeps an infinite undo stack. There is virtually no fix unless upstream provides an API to work with the undo stack. Meanwhile, users could execute `Terminus: Clear History` to release the memory.
 
 ### Terminal panel background issue
 

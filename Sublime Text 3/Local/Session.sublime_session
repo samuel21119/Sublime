@@ -1,13 +1,20 @@
 {
 	"folder_history":
 	[
+		"/Users/samuel/Documents/Cpp",
 		"/Users/samuel/Documents",
+		"/Users/samuel/Documents/Cpp/CodeForces/1013",
 		"/Users/samuel/Documents/Cpp/UVa/Code",
+		"/Users/samuel/Desktop",
+		"/Users/samuel/Documents/Cpp/CodeForces/1092",
+		"/Users/samuel/Documents/Cpp/CodeForces",
 		"/Users/samuel/Documents/blog",
+		"/Users/samuel/Documents/NPSC",
+		"/Users/samuel/Documents/Cpp/CodeForces/977",
+		"/Users/samuel/Documents/Cpp/CodeForces/1041",
 		"/Users/samuel/Documents/Cpp/CodeForces/939",
 		"/Users/samuel/Documents/Cpp/CodeForces/1036",
 		"/Users/samuel/Documents/Cpp/CodeForces/1038",
-		"/Users/samuel/Desktop",
 		"/Users/samuel/Documents/Cpp/UVa",
 		"/Users/samuel/Documents/Cpp/Zero Judge",
 		"/Users/samuel/Documents/Cpp/Virtual/TOI2018",
@@ -16,21 +23,41 @@
 		"/Users/samuel/Documents/Cpp/TOJ"
 	],
 	"last_version": 3176,
-	"last_window_id": 89,
+	"last_window_id": 136,
 	"log_indexing": false,
 	"settings":
 	{
-		"new_window_height": 808.0,
+		"new_window_height": 855.0,
 		"new_window_settings":
 		{
 			"auto_complete":
 			{
 				"selected_items":
 				[
+					[
+						"emplac",
+						"emplace_back\tvoid emplace_back(_Args &&__args...)"
+					]
 				]
 			},
 			"build_system_choices":
 			[
+				[
+					[
+						[
+							"Packages/C++11/C++11.sublime-build",
+							""
+						],
+						[
+							"Packages/C++11/C++11.sublime-build",
+							"Run"
+						]
+					],
+					[
+						"Packages/C++11/C++11.sublime-build",
+						""
+					]
+				],
 				[
 					[
 						[
@@ -112,6 +139,66 @@
 						"Package Control: Install Package"
 					],
 					[
+						"c++",
+						"Set Syntax: C++11"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"pacl",
+						"Package Control: List Packages"
+					],
+					[
+						"pac",
+						"Package Control: Install Package"
+					],
+					[
+						"pack",
+						"Package Control: Remove Package"
+					],
+					[
+						"pl",
+						"Package Control: List Packages"
+					],
+					[
+						"theme",
+						"Boxy Theme: Configuration"
+					],
+					[
+						"git",
+						"Git: Status"
+					],
+					[
+						"clan",
+						"Clang Format: Format Selection"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"them",
+						"Material Theme: Configuration"
+					],
+					[
+						"Materialize",
+						"Activate Materialize Theme"
+					],
+					[
+						"mater",
+						"Material Theme: Configuration"
+					],
+					[
+						"ma",
+						"Material Theme: Activate theme"
+					],
+					[
 						"re",
 						"Package Control: Remove Package"
 					],
@@ -124,24 +211,12 @@
 						"YouCompleteMe: Show file information"
 					],
 					[
-						"remo",
-						"Package Control: Remove Package"
-					],
-					[
-						"ins",
-						"Package Control: Install Package"
-					],
-					[
 						"rem",
 						"Package Control: Remove Package"
 					],
 					[
 						"pa",
 						"Package Control: Remove Package"
-					],
-					[
-						"pac",
-						"Package Control: List Packages"
 					],
 					[
 						"cheme",
@@ -184,18 +259,6 @@
 						"Git: Checkout Current File"
 					],
 					[
-						"git",
-						"Git: Status"
-					],
-					[
-						"inst",
-						"Package Control: Install Package"
-					],
-					[
-						"pack",
-						"Package Control: Install Package"
-					],
-					[
 						"insla",
 						"Package Control: Install Package"
 					]
@@ -224,10 +287,68 @@
 			},
 			"file_history":
 			[
-				"/Users/samuel/Documents/Cpp/UVa/Code/00166 - Making Change.cpp",
+				"/Users/samuel/Desktop/a.cpp",
+				"/Users/samuel/Documents/Cpp/CodeForces/1013/a.cpp",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/User/C++.sublime-build",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Installed Packages/C++11.sublime-package",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/Highlight Build Errors/HighlightBuildErrors.sublime-settings",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/C++11/C++11.sublime-settings",
+				"/Users/samuel/Documents/Cpp/CodeForces/1013/d.cpp",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/User/C++11.sublime-settings",
+				"/Users/samuel/Documents/Cpp/CodeForces/1013/e.cpp",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/C++11/messages/install.txt",
+				"/Users/samuel/Documents/Cpp/CodeForces/1013/c.cpp",
+				"/Users/samuel/Desktop/4.cpp",
+				"/Users/samuel/Documents/Cpp/CodeForces/1013/b.cpp",
+				"/Users/samuel/Documents/Cpp/UVa/Code/12125 - March of the Penguins.cpp",
+				"/Users/samuel/Desktop/t.cpp",
+				"/Users/samuel/Documents/Cpp/CodeForces/1092/a.cpp",
+				"/Users/samuel/Documents/Cpp/CodeForces/1092/b.cpp",
+				"/Users/samuel/Documents/Cpp/CodeForces/1092/c.cpp",
+				"/Users/samuel/Documents/Cpp/CodeForces/1092/d.cpp",
+				"/Users/samuel/Documents/blog/source/_posts/2018-12-11-UVa-1427-Parade.md",
+				"/Users/samuel/Documents/blog/source/_posts/2018-10-09-UVa-838-Worm-World.md",
+				"/Users/samuel/Documents/blog/source/_posts/2018-08-15-Template-Strongly-Connect-Component.md",
+				"/Users/samuel/Documents/blog/source/_posts/2018-12-11-UVa-01427-Parade.md",
+				"/Users/samuel/Documents/NPSC/d.cpp",
+				"/Users/samuel/Documents/NPSC/e.cpp",
+				"/Users/samuel/Documents/NPSC/c.cpp",
+				"/Users/samuel/Documents/NPSC/cc.cpp",
+				"/Library/Developer/CommandLineTools/usr/include/c++/v1/utility",
+				"/Users/samuel/Desktop/魔法城堡.txt",
+				"/Users/samuel/Desktop/化學璿簽書會.txt",
+				"/Users/samuel/Documents/blog/source/_posts/2018-10-25-107學年度-校內初選題目.md",
+				"/Users/samuel/a.cpp",
+				"/Users/samuel/Documents/blog/source/_posts/2018-08-08-Template-Binary-Index-Tree.md",
+				"/Users/samuel/Documents/blog/source/_posts/2018-09-22-UVa-10600-ACM-contest-and-Blackout.md",
+				"/Users/samuel/Documents/blog/source/_posts/2018-09-15-UVa-165-Stamps.md",
+				"/Users/samuel/Documents/blog/_config.yml",
+				"/Users/samuel/Documents/Cpp/CodeForces/1047/a.cpp",
+				"/Users/samuel/Documents/Cpp/UVa/Code/10600 - ACM contest and Blackout.cpp",
+				"/Users/samuel/b.cpp",
+				"/Users/samuel/.hyper.js",
 				"/Users/samuel/Documents/Cpp/UVa/Code/00100 - The 3n + 1 problem.cpp",
-				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/YouCompleteMe/README.md",
+				"/Users/samuel/Documents/Cpp/CodeForces/1041/c.cpp",
+				"/Users/samuel/Documents/Cpp/CodeForces/1041/b.cpp",
+				"/Users/samuel/Documents/Cpp/CodeForces/1041/a.cpp",
+				"/Users/samuel/Documents/Cpp/CodeForces/1041/d.cpp",
+				"/Users/samuel/Documents/Cpp/UVa/Code/00165 - Stamps.cpp",
+				"/Users/samuel/.vimrc",
+				"/Users/samuel/Documents/Cpp/UVa/Code/a.cpp",
+				"/Users/samuel/Documents/Cpp/UVa/Code/00291 - The House Of Santa Claus.cpp",
 				"/Users/samuel/Documents/Cpp/UVa/Code/00101 - The Blocks Problem.cpp",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/User/clang_format_custom.sublime-settings",
+				"/Users/samuel/Documents/Cpp/UVa/Code/13257 - License Plates.cpp",
+				"/Users/samuel/Documents/Cpp/UVa/Code/00103 - Stacking Boxes.cpp",
+				"/Users/samuel/Downloads/直式問題.cpp",
+				"/Users/samuel/Documents/Cpp/UVa/Code/10032 - Tug of War.cpp",
+				"/Users/samuel/Documents/Cpp/UVa/Code/01479 - Graph and Queries.cpp",
+				"/Users/samuel/Documents/Cpp/UVa/Code/1",
+				"/Users/samuel/Documents/Cpp/UVa/Code/11300 - Spreading.cpp",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+				"/Users/samuel/Documents/Cpp/UVa/Code/00166 - Making Change.cpp",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/YouCompleteMe/README.md",
 				"/Users/samuel/Documents/Cpp/UVa/Code/00374 - Big Mod.cpp",
 				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/User/C++ console.sublime-build",
 				"/Users/samuel/Documents/Cpp/CodeForces/939/b.cpp",
@@ -235,7 +356,6 @@
 				"/Users/samuel/Documents/Cpp/CodeForces/939/c.cpp",
 				"/Users/samuel/Documents/Cpp/CodeForces/939/d.cpp",
 				"/Users/samuel/Documents/blog/source/_posts/2018-09-09-UVa-10917-Walk-Through-the-Forest.md",
-				"/Users/samuel/Documents/Cpp/UVa/Code/1",
 				"/Users/samuel/Documents/Cpp/CodeForces/1036/b.cpp",
 				"/Users/samuel/Documents/Cpp/CodeForces/1036/d.cpp",
 				"/Users/samuel/Documents/Cpp/CodeForces/1036/a.cpp",
@@ -249,7 +369,6 @@
 				"/Users/samuel/Documents/Cpp/UVa/Code/01513 - Movie collection.cpp",
 				"/Users/samuel/Documents/Cpp/UVa/Code/10917 - A Walk Through the Forest.cpp",
 				"/Users/samuel/Documents/Cpp/UVa/Code/01225 - Digit Counting.cpp",
-				"/Users/samuel/Desktop/a.cpp",
 				"/Users/samuel/Desktop/d.cpp",
 				"/Users/samuel/Desktop/dd.cpp",
 				"/Users/samuel/Desktop/b.cpp",
@@ -258,9 +377,7 @@
 				"/Users/samuel/Documents/Cpp/Zero Judge/a.cpp",
 				"/Users/samuel/Documents/Cpp/UVa/Code/12247 - Jollo.cpp",
 				"/Users/samuel/Documents/Cpp/UVa/Code/00536 - Tree Recovery.cpp",
-				"/Users/samuel/a.cpp",
 				"/Users/samuel/Documents/Cpp/Virtual/TOI2018/d.cpp",
-				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/Highlight Build Errors/HighlightBuildErrors.sublime-settings",
 				"/Users/samuel/Documents/Cpp/Virtual/TOI2018/c.cpp",
 				"/Users/samuel/Documents/Cpp/Virtual/TOI2018/b.cpp",
 				"/Users/samuel/Documents/Cpp/Virtual/TOI2018/e.cpp",
@@ -281,7 +398,6 @@
 				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/SublimeTmpl/Main.sublime-menu",
 				"/Users/samuel/Documents/test.cpp",
 				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/User/C++ Terminal.sublime-build",
-				"/Users/samuel/Documents/Cpp/UVa/Code/a.cpp",
 				"/Users/samuel/Documents/Cpp/UVa/Code/12097 - Pie.cpp",
 				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/User/dired.sublime-settings",
 				"/Users/samuel/Documents/Cpp/UVa/Code/12321 - Gas Stations.cpp",
@@ -291,12 +407,11 @@
 				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
 				"/Users/samuel/Documents/Sublime/a.cpp",
 				"/Users/samuel/Documents/blog/source/_posts/2018-08-23-Template-Fibonacci-Matrix.md",
-				"/Users/samuel/Documents/blog/source/_posts/2018-08-09-Template-Longest-Common-Subsequence.md",
-				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/User/C++.sublime-build"
+				"/Users/samuel/Documents/blog/source/_posts/2018-08-09-Template-Longest-Common-Subsequence.md"
 			],
 			"find":
 			{
-				"height": 29.0
+				"height": 30.0
 			},
 			"find_in_files":
 			{
@@ -326,7 +441,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 29.0
+				"height": 30.0
 			},
 			"input":
 			{
@@ -335,7 +450,7 @@
 			"menu_visible": true,
 			"output.exec":
 			{
-				"height": 198.0
+				"height": 275.0
 			},
 			"output.find_results":
 			{
@@ -345,10 +460,14 @@
 			{
 				"height": 142.0
 			},
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
 			"pinned_build_system": "Packages/User/C++.sublime-build",
 			"replace":
 			{
-				"height": 54.0
+				"height": 56.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -357,6 +476,30 @@
 				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"march",
+						"12125 - March of the Penguins.cpp"
+					],
+					[
+						"sta",
+						"00165 - Stamps.cpp"
+					],
+					[
+						"a.",
+						"a.cpp"
+					],
+					[
+						"tug",
+						"10032 - Tug of War.cpp"
+					],
+					[
+						"1479",
+						"01479 - Graph and Queries.cpp"
+					],
+					[
+						"sprea",
+						"11300 - Spreading.cpp"
+					],
 					[
 						"com",
 						"10898 - Combo Deal.cpp"
@@ -414,7 +557,7 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 223.0,
+			"side_bar_width": 112.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
@@ -429,14 +572,42 @@
 			{
 				"selected_items":
 				[
+					[
+						"emplac",
+						"emplace_back\tvoid emplace_back(_Args &&__args...)"
+					]
 				]
 			},
 			"buffers":
 			[
+				{
+					"file": "/Users/samuel/Documents/Cpp/NPSC2018/初賽/b.cpp",
+					"settings":
+					{
+						"buffer_size": 1331,
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
 			[
+				[
+					[
+						[
+							"Packages/C++11/C++11.sublime-build",
+							""
+						],
+						[
+							"Packages/C++11/C++11.sublime-build",
+							"Run"
+						]
+					],
+					[
+						"Packages/C++11/C++11.sublime-build",
+						""
+					]
+				],
 				[
 					[
 						[
@@ -518,6 +689,66 @@
 						"Package Control: Install Package"
 					],
 					[
+						"c++",
+						"Set Syntax: C++11"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"pacl",
+						"Package Control: List Packages"
+					],
+					[
+						"pac",
+						"Package Control: Install Package"
+					],
+					[
+						"pack",
+						"Package Control: Remove Package"
+					],
+					[
+						"pl",
+						"Package Control: List Packages"
+					],
+					[
+						"theme",
+						"Boxy Theme: Configuration"
+					],
+					[
+						"git",
+						"Git: Status"
+					],
+					[
+						"clan",
+						"Clang Format: Format Selection"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"them",
+						"Material Theme: Configuration"
+					],
+					[
+						"Materialize",
+						"Activate Materialize Theme"
+					],
+					[
+						"mater",
+						"Material Theme: Configuration"
+					],
+					[
+						"ma",
+						"Material Theme: Activate theme"
+					],
+					[
 						"re",
 						"Package Control: Remove Package"
 					],
@@ -530,24 +761,12 @@
 						"YouCompleteMe: Show file information"
 					],
 					[
-						"remo",
-						"Package Control: Remove Package"
-					],
-					[
-						"ins",
-						"Package Control: Install Package"
-					],
-					[
 						"rem",
 						"Package Control: Remove Package"
 					],
 					[
 						"pa",
 						"Package Control: Remove Package"
-					],
-					[
-						"pac",
-						"Package Control: List Packages"
 					],
 					[
 						"cheme",
@@ -590,18 +809,6 @@
 						"Git: Checkout Current File"
 					],
 					[
-						"git",
-						"Git: Status"
-					],
-					[
-						"inst",
-						"Package Control: Install Package"
-					],
-					[
-						"pack",
-						"Package Control: Install Package"
-					],
-					[
 						"insla",
 						"Package Control: Install Package"
 					]
@@ -628,12 +835,76 @@
 				"side_bar_visible": false,
 				"status_bar_visible": false
 			},
+			"expanded_folders":
+			[
+				"/Users/samuel/Documents/Cpp",
+				"/Users/samuel/Documents/Cpp/NPSC2018",
+				"/Users/samuel/Documents/Cpp/NPSC2018/初賽"
+			],
 			"file_history":
 			[
-				"/Users/samuel/Documents/Cpp/UVa/Code/00166 - Making Change.cpp",
+				"/Users/samuel/Desktop/a.cpp",
+				"/Users/samuel/Documents/Cpp/CodeForces/1013/a.cpp",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/User/C++.sublime-build",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Installed Packages/C++11.sublime-package",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/Highlight Build Errors/HighlightBuildErrors.sublime-settings",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/C++11/C++11.sublime-settings",
+				"/Users/samuel/Documents/Cpp/CodeForces/1013/d.cpp",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/User/C++11.sublime-settings",
+				"/Users/samuel/Documents/Cpp/CodeForces/1013/e.cpp",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/C++11/messages/install.txt",
+				"/Users/samuel/Documents/Cpp/CodeForces/1013/c.cpp",
+				"/Users/samuel/Desktop/4.cpp",
+				"/Users/samuel/Documents/Cpp/CodeForces/1013/b.cpp",
+				"/Users/samuel/Documents/Cpp/UVa/Code/12125 - March of the Penguins.cpp",
+				"/Users/samuel/Desktop/t.cpp",
+				"/Users/samuel/Documents/Cpp/CodeForces/1092/a.cpp",
+				"/Users/samuel/Documents/Cpp/CodeForces/1092/b.cpp",
+				"/Users/samuel/Documents/Cpp/CodeForces/1092/c.cpp",
+				"/Users/samuel/Documents/Cpp/CodeForces/1092/d.cpp",
+				"/Users/samuel/Documents/blog/source/_posts/2018-12-11-UVa-1427-Parade.md",
+				"/Users/samuel/Documents/blog/source/_posts/2018-10-09-UVa-838-Worm-World.md",
+				"/Users/samuel/Documents/blog/source/_posts/2018-08-15-Template-Strongly-Connect-Component.md",
+				"/Users/samuel/Documents/blog/source/_posts/2018-12-11-UVa-01427-Parade.md",
+				"/Users/samuel/Documents/NPSC/d.cpp",
+				"/Users/samuel/Documents/NPSC/e.cpp",
+				"/Users/samuel/Documents/NPSC/c.cpp",
+				"/Users/samuel/Documents/NPSC/cc.cpp",
+				"/Library/Developer/CommandLineTools/usr/include/c++/v1/utility",
+				"/Users/samuel/Desktop/魔法城堡.txt",
+				"/Users/samuel/Desktop/化學璿簽書會.txt",
+				"/Users/samuel/Documents/blog/source/_posts/2018-10-25-107學年度-校內初選題目.md",
+				"/Users/samuel/a.cpp",
+				"/Users/samuel/Documents/blog/source/_posts/2018-08-08-Template-Binary-Index-Tree.md",
+				"/Users/samuel/Documents/blog/source/_posts/2018-09-22-UVa-10600-ACM-contest-and-Blackout.md",
+				"/Users/samuel/Documents/blog/source/_posts/2018-09-15-UVa-165-Stamps.md",
+				"/Users/samuel/Documents/blog/_config.yml",
+				"/Users/samuel/Documents/Cpp/CodeForces/1047/a.cpp",
+				"/Users/samuel/Documents/Cpp/UVa/Code/10600 - ACM contest and Blackout.cpp",
+				"/Users/samuel/b.cpp",
+				"/Users/samuel/.hyper.js",
 				"/Users/samuel/Documents/Cpp/UVa/Code/00100 - The 3n + 1 problem.cpp",
-				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/YouCompleteMe/README.md",
+				"/Users/samuel/Documents/Cpp/CodeForces/1041/c.cpp",
+				"/Users/samuel/Documents/Cpp/CodeForces/1041/b.cpp",
+				"/Users/samuel/Documents/Cpp/CodeForces/1041/a.cpp",
+				"/Users/samuel/Documents/Cpp/CodeForces/1041/d.cpp",
+				"/Users/samuel/Documents/Cpp/UVa/Code/00165 - Stamps.cpp",
+				"/Users/samuel/.vimrc",
+				"/Users/samuel/Documents/Cpp/UVa/Code/a.cpp",
+				"/Users/samuel/Documents/Cpp/UVa/Code/00291 - The House Of Santa Claus.cpp",
 				"/Users/samuel/Documents/Cpp/UVa/Code/00101 - The Blocks Problem.cpp",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/User/clang_format_custom.sublime-settings",
+				"/Users/samuel/Documents/Cpp/UVa/Code/13257 - License Plates.cpp",
+				"/Users/samuel/Documents/Cpp/UVa/Code/00103 - Stacking Boxes.cpp",
+				"/Users/samuel/Downloads/直式問題.cpp",
+				"/Users/samuel/Documents/Cpp/UVa/Code/10032 - Tug of War.cpp",
+				"/Users/samuel/Documents/Cpp/UVa/Code/01479 - Graph and Queries.cpp",
+				"/Users/samuel/Documents/Cpp/UVa/Code/1",
+				"/Users/samuel/Documents/Cpp/UVa/Code/11300 - Spreading.cpp",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+				"/Users/samuel/Documents/Cpp/UVa/Code/00166 - Making Change.cpp",
+				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/YouCompleteMe/README.md",
 				"/Users/samuel/Documents/Cpp/UVa/Code/00374 - Big Mod.cpp",
 				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/User/C++ console.sublime-build",
 				"/Users/samuel/Documents/Cpp/CodeForces/939/b.cpp",
@@ -641,7 +912,6 @@
 				"/Users/samuel/Documents/Cpp/CodeForces/939/c.cpp",
 				"/Users/samuel/Documents/Cpp/CodeForces/939/d.cpp",
 				"/Users/samuel/Documents/blog/source/_posts/2018-09-09-UVa-10917-Walk-Through-the-Forest.md",
-				"/Users/samuel/Documents/Cpp/UVa/Code/1",
 				"/Users/samuel/Documents/Cpp/CodeForces/1036/b.cpp",
 				"/Users/samuel/Documents/Cpp/CodeForces/1036/d.cpp",
 				"/Users/samuel/Documents/Cpp/CodeForces/1036/a.cpp",
@@ -655,7 +925,6 @@
 				"/Users/samuel/Documents/Cpp/UVa/Code/01513 - Movie collection.cpp",
 				"/Users/samuel/Documents/Cpp/UVa/Code/10917 - A Walk Through the Forest.cpp",
 				"/Users/samuel/Documents/Cpp/UVa/Code/01225 - Digit Counting.cpp",
-				"/Users/samuel/Desktop/a.cpp",
 				"/Users/samuel/Desktop/d.cpp",
 				"/Users/samuel/Desktop/dd.cpp",
 				"/Users/samuel/Desktop/b.cpp",
@@ -664,9 +933,7 @@
 				"/Users/samuel/Documents/Cpp/Zero Judge/a.cpp",
 				"/Users/samuel/Documents/Cpp/UVa/Code/12247 - Jollo.cpp",
 				"/Users/samuel/Documents/Cpp/UVa/Code/00536 - Tree Recovery.cpp",
-				"/Users/samuel/a.cpp",
 				"/Users/samuel/Documents/Cpp/Virtual/TOI2018/d.cpp",
-				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/Highlight Build Errors/HighlightBuildErrors.sublime-settings",
 				"/Users/samuel/Documents/Cpp/Virtual/TOI2018/c.cpp",
 				"/Users/samuel/Documents/Cpp/Virtual/TOI2018/b.cpp",
 				"/Users/samuel/Documents/Cpp/Virtual/TOI2018/e.cpp",
@@ -687,7 +954,6 @@
 				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/SublimeTmpl/Main.sublime-menu",
 				"/Users/samuel/Documents/test.cpp",
 				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/User/C++ Terminal.sublime-build",
-				"/Users/samuel/Documents/Cpp/UVa/Code/a.cpp",
 				"/Users/samuel/Documents/Cpp/UVa/Code/12097 - Pie.cpp",
 				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/User/dired.sublime-settings",
 				"/Users/samuel/Documents/Cpp/UVa/Code/12321 - Gas Stations.cpp",
@@ -697,12 +963,11 @@
 				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
 				"/Users/samuel/Documents/Sublime/a.cpp",
 				"/Users/samuel/Documents/blog/source/_posts/2018-08-23-Template-Fibonacci-Matrix.md",
-				"/Users/samuel/Documents/blog/source/_posts/2018-08-09-Template-Longest-Common-Subsequence.md",
-				"/Users/samuel/Library/Application Support/Sublime Text 3/Packages/User/C++.sublime-build"
+				"/Users/samuel/Documents/blog/source/_posts/2018-08-09-Template-Longest-Common-Subsequence.md"
 			],
 			"find":
 			{
-				"height": 29.0
+				"height": 30.0
 			},
 			"find_in_files":
 			{
@@ -730,8 +995,64 @@
 				"whole_word": false,
 				"wrap": true
 			},
+			"folders":
+			[
+				{
+					"path": "/Users/samuel/Documents/Cpp"
+				}
+			],
 			"groups":
 			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/Users/samuel/Documents/Cpp/NPSC2018/初賽/b.cpp",
+							"semi_transient": true,
+							"settings":
+							{
+								"buffer_size": 1331,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1331,
+										1331
+									]
+								],
+								"settings":
+								{
+									"origin_encoding": "ASCII",
+									"syntax": "Packages/C++11/C++11.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true,
+									"vintage":
+									{
+										"action": null,
+										"action_count": "",
+										"mode": "mode_normal",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 14
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 315.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				},
 				{
 					"sheets":
 					[
@@ -740,7 +1061,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 29.0
+				"height": 30.0
 			},
 			"input":
 			{
@@ -755,11 +1076,18 @@
 						0,
 						1,
 						1
+					],
+					[
+						1,
+						0,
+						2,
+						1
 					]
 				],
 				"cols":
 				[
 					0.0,
+					0.5,
 					1.0
 				],
 				"rows":
@@ -771,7 +1099,7 @@
 			"menu_visible": true,
 			"output.exec":
 			{
-				"height": 198.0
+				"height": 275.0
 			},
 			"output.find_results":
 			{
@@ -781,12 +1109,16 @@
 			{
 				"height": 142.0
 			},
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
 			"pinned_build_system": "Packages/User/C++.sublime-build",
-			"position": "0 240 125 1440 830 0 0 1920 1058 ",
+			"position": "0 0 0 1440 877 0 0 1440 877 ",
 			"project": "",
 			"replace":
 			{
-				"height": 54.0
+				"height": 56.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -795,6 +1127,30 @@
 				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"march",
+						"12125 - March of the Penguins.cpp"
+					],
+					[
+						"sta",
+						"00165 - Stamps.cpp"
+					],
+					[
+						"a.",
+						"a.cpp"
+					],
+					[
+						"tug",
+						"10032 - Tug of War.cpp"
+					],
+					[
+						"1479",
+						"01479 - Graph and Queries.cpp"
+					],
+					[
+						"sprea",
+						"11300 - Spreading.cpp"
+					],
 					[
 						"com",
 						"10898 - Combo Deal.cpp"
@@ -848,20 +1204,23 @@
 				],
 				"width": 0.0
 			},
-			"selected_group": 0,
+			"selected_group": 1,
 			"settings":
 			{
+				"vintage":
+				{
+				}
 			},
 			"show_minimap": false,
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 223.0,
+			"side_bar_width": 208.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			},
-			"window_id": 89,
+			"window_id": 136,
 			"workspace_name": ""
 		}
 	],

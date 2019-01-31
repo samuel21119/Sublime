@@ -3,7 +3,7 @@
     [
         {
             "name": "Run",
-            "shell_cmd": "g++ '$file' -Wall -lm -O2 -std=c++11 -pipe && open -a Terminal ./a.out"
+            "shell_cmd": "g++ '$file' -Wall -lm -O2 -std=c++11 -pipe -o a && open -a iTerm ./a"
         },
         {
             "name": "Compile",

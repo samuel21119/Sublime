@@ -2,12 +2,11 @@ Description (中文说明见[README.zh_CN.md](https://github.com/seanliang/Conve
 ------------------
 With this plugin, you can edit and save the files which encodings are not supported by Sublime Text currently, especially for those used by CJK users, such as GB2312, GBK, BIG5, EUC-KR, EUC-JP, etc. ConvertToUTF8 supports both Sublime Text 2 and 3.
 
-![ConvertToUTF8](http://dl.dropboxusercontent.com/u/31937639/ConvertToUTF8/ConvertToUTF8.gif)
+![ConvertToUTF8](https://seanliang.github.io/donate/ConvertToUTF8.gif)
 
-If you want to support this plugin, you can donate via PayPal or Alipay. Thanks! :)
+If you want to support this plugin, you can donate via Alipay or WeChat. Thanks! :)
 
-[![PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=GP6Y25N7Q9E26&lc=US&item_name=Buy%20me%20a%20cup%20of%20coffee&item_number=ConvertToUTF8&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHostedGuest) OR 
-![Alipay QR code](http://dl.dropboxusercontent.com/u/31937639/alipay_code.png)
+![Alipay QR code](https://seanliang.github.io/donate/ap.png) ![WeChat QR code](https://seanliang.github.io/donate/wx.png)
 
 Note
 ------------------
@@ -17,13 +16,13 @@ Note
 
 Installation
 ------------------
-Using [Package Control](https://sublime.wbond.net/installation) to find, install and upgrade *ConvertToUTF8* is the recommended method to install this plug-in.
+Using [Package Control](https://packagecontrol.io/installation) to find, install and upgrade *ConvertToUTF8* is the recommended method to install this plug-in.
 
 Otherwise, you can download this repository as a zip file, unzip it, and rename the new folder to *ConvertToUTF8*, then move this folder to *Packages* folder of Sublime Text (You can find the *Packages* folder by clicking "Preferences > Browse Packages" menu entry in Sublime Text).
 
 Your folder hierarchy should look like this:
 
-![Folder Hierarchy](http://dl.dropboxusercontent.com/u/31937639/ConvertToUTF8/hierarchy.png)
+![Folder Hierarchy](https://seanliang.github.io/donate/hierarchy.png)
 
 Configuration
 ------------------

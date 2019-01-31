@@ -9,7 +9,7 @@ import threading
 from queue import Queue, Empty
 
 from .ptty import TerminalPtyProcess, TerminalScreen, TerminalStream
-from .utils import view_size, responsive, intermission
+from .utils import panel_window, view_size, responsive, intermission
 from .key import get_key_code
 from .image import get_image_info, image_resize
 
@@ -30,17 +30,18 @@ logger = logging.getLogger('Terminus')
 
 class Terminal:
     _terminals = {}
-    _title = ""
+    _detached_terminals = []
 
-    def __init__(self, view):
+    def __init__(self, view=None):
+        self._title = ""
         self.view = view
-        self._terminals[view.id()] = self
         self._cached_cursor = [0, 0]
         self._cached_cursor_is_hidden = [True]
         self.image_count = 0
         self.images = {}
         self._strings = Queue()
         self._pending_to_send_string = [False]
+        self.lock = threading.Lock()
 
     @classmethod
     def from_id(cls, vid):
@@ -54,6 +55,27 @@ class Terminal:
             if terminal.tag == tag:
                 return terminal
         return None
+
+    def attach_view(self, view, offset=None):
+        with self.lock:
+            self.view = view
+            self.detached = False
+            Terminal._terminals[view.id()] = self
+            if self in Terminal._detached_terminals:
+                Terminal._detached_terminals.remove(self)
+            self.view.settings().erase("terminus_view.detached")
+            # allow screen to be rerendered
+            self.screen.dirty.update(range(self.screen.lines))
+            self.set_offset(offset)
+
+    def detach_view(self):
+        with self.lock:
+            self.detached = True
+            Terminal._detached_terminals.append(self)
+            if self.view.id() in Terminal._terminals:
+                del Terminal._terminals[self.view.id()]
+            self.view.settings().set("terminus_view.detached", True)
+            self.view = None
 
     def _need_to_render(self):
         flag = False
@@ -72,17 +94,16 @@ class Terminal:
         return flag
 
     def _start_rendering(self):
-        condition = threading.Condition()
         data = [""]
         done = [False]
-        parent_window = self.view.window() or sublime.active_window()
 
         @responsive(period=1, default=True)
         def view_is_attached():
+            if self.detached:
+                # irrelevant if terminal is detached
+                return True
             if self.panel_name:
-                window = self.view.window() or parent_window
-                terminus_view = window.find_output_panel(self.panel_name)
-                return terminus_view and terminus_view.id() == self.view.id()
+                return panel_window(self.view)
             else:
                 return self.view.window()
 
@@ -98,12 +119,12 @@ class Terminal:
                 except EOFError:
                     break
 
-                with condition:
-                    condition.wait(0.1)
+                with self.lock:
                     data[0] += temp
 
-                if done[0] or not view_is_attached():
-                    break
+                    if done[0] or not view_is_attached():
+                        logger.debug("reader breaks")
+                        break
 
             done[0] = True
 
@@ -118,19 +139,18 @@ class Terminal:
                     data[0] = ""
 
             while True:
-                with intermission(period=0.03):
-                    with condition:
-                        feed_data()
-
+                with intermission(period=0.03), self.lock:
+                    feed_data()
+                    if not self.detached:
                         if was_resized():
                             self.handle_resize()
                             self.view.run_command("terminus_show_cursor")
 
                         if self._need_to_render():
                             self.view.run_command("terminus_render")
-                        condition.notify()
 
                     if done[0] or not view_is_attached():
+                        logger.debug("renderer breaks")
                         break
 
             feed_data()
@@ -139,24 +159,44 @@ class Terminal:
 
         threading.Thread(target=renderer).start()
 
-    def open(
-            self, cmd, cwd=None, env=None, title=None, offset=0,
+    def set_offset(self, offset=None):
+        if offset is not None:
+            self.offset = offset
+        else:
+            if self.view and self.view.size() > 0:
+                view = self.view
+                self.offset = view.rowcol(view.size())[0] + 1
+            else:
+                self.offset = 0
+        logger.debug("activating with offset %s", self.offset)
+
+    def activate(
+            self, cmd, cwd=None, env=None, title=None,
             panel_name=None, tag=None, auto_close=True):
+
+        view = self.view
+        if view:
+            self.detached = False
+            Terminal._terminals[view.id()] = self
+        else:
+            Terminal._detached_terminals.append(self)
+            self.detached = True
 
         self.panel_name = panel_name
         self.tag = tag
         self.auto_close = auto_close
         self.default_title = title
-        self.title = title
-        self.offset = offset
-        self.viewport = (0, self.view.text_to_layout(self.view.text_point(offset, 0))[1])
-        _env = os.environ.copy()
-        _env.update(env)
-        size = view_size(self.view)
+
+        if view:
+            self.title = title
+            self.set_offset()
+
+        size = view_size(view or sublime.active_window().active_view())
         if size == (1, 1):
             size = (24, 80)
-        # self.view.settings().set("wrap_width", size[1])
         logger.debug("view size: {}".format(str(size)))
+        _env = os.environ.copy()
+        _env.update(env)
         self.process = TerminalPtyProcess.spawn(cmd, cwd=cwd, env=_env, dimensions=size)
         self.screen = TerminalScreen(size[1], size[0], process=self.process, history=10000)
         self.stream = TerminalStream(self.screen)
@@ -166,12 +206,15 @@ class Terminal:
         self._start_rendering()
 
     def close(self):
+        logger.debug("close")
+
         vid = self.view.id()
         if vid in self._terminals:
             del self._terminals[vid]
         self.process.terminate()
 
     def cleanup(self):
+        logger.debug("cleanup")
         self.view.run_command("terminus_render")
 
         # process might be still alive but view was detached
@@ -201,7 +244,6 @@ class Terminal:
             self.screen.lines, self.screen.columns, size[0], size[1]))
         self.process.setwinsize(*size)
         self.screen.resize(*size)
-        # self.view.settings().set("wrap_width", size[1])
 
     @property
     def title(self):
@@ -209,8 +251,9 @@ class Terminal:
 
     @title.setter
     def title(self, value):
-        self._title = value
-        self.view.set_name(value)
+        if not self.detached:
+            self._title = value
+            self.view.set_name(value)
 
     def send_key(self, *args, **kwargs):
         kwargs["application_mode"] = self.application_mode_enabled()
@@ -228,6 +271,7 @@ class Terminal:
 
         no_queue = not self._pending_to_send_string[0]
         if no_queue and len(string) <= 512:
+            logger.debug("sent: {}".format(string[0:64] if len(string) > 64 else string))
             self.process.write(string)
         else:
             for i in range(0, len(string), 512):
@@ -239,7 +283,9 @@ class Terminal:
     def process_send_string(self):
         while True:
             try:
-                self.process.write(self._strings.get(False))
+                string = self._strings.get(False)
+                logger.debug("sent: {}".format(string[0:64] if len(string) > 64 else string))
+                self.process.write(string)
             except Empty:
                 self._pending_to_send_string[0] = False
                 return
@@ -323,11 +369,22 @@ class Terminal:
             if region.empty() and region.begin() == 0:
                 view.erase_phantom_by_id(pid)
                 if pid in self.images:
+                    try:
+                        os.remove(self.images[pid])
+                    except Exception:
+                        pass
                     del self.images[pid]
 
     def __del__(self):
         # make sure the process is terminated
         self.process.terminate(force=True)
+
+        # remove images
+        for image_path in list(self.images.values()):
+            try:
+                os.remove(image_path)
+            except Exception:
+                pass
 
         if self.process.isalive():
             logger.debug("process becomes orphaned")

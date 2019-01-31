@@ -29,6 +29,14 @@
         "command": "toggle_terminus_panel"
     },
     {
+        "caption": "Terminus: Clear History",
+        "command": "terminus_clear_history"
+    },
+    {
+        "caption": "Terminus: Close",
+        "command": "terminus_close"
+    },
+    {
         "caption": "Terminus Utilities: Select Theme",
         "command": "terminus_select_theme"
     },
